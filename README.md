@@ -1,75 +1,35 @@
-# malaysia-cost-of-living-eda
+# 📊 Malaysia Cost of Living Analysis (2015–2022)
 
-# Malaysia Cost of Living Analysis (2015–2022)
-
-Exploratory data analysis of household income, expenditure, and inflation
-trends across Malaysia's 16 states, using official DOSM survey data.
+An exploratory data analysis (EDA) of household income, expenditure, and inflation trends across Malaysia's states, using official **OpenDOSM** data.
 
 ---
 
-## Business questions
+## 🎯 Project Objective
+With the rising cost of living in Malaysia, this project aims to answer three critical business questions:
+1. **Affordability Stress:** Which states show the highest expenditure-to-income ratios?
+2. **Growth Gap:** Has household income growth kept pace with CPI (Inflation) across different regions?
+3. **Price Drivers:** Which specific expenditure categories (e.g., Food, Transport) are the primary drivers of inflation?
 
-1. Which states face the highest affordability stress (expenditure relative to income)?
-2. Has income growth kept pace with CPI inflation across states?
-3. Which expenditure categories are driving cost of living increases?
+## 🛠️ Tech Stack
+- **Language:** Python 3.x
+- **Libraries:** Pandas (Data Wrangling), Seaborn/Matplotlib (Visualization), Scipy (Statistical Testing)
+- **Data Source:** [OpenDOSM API / Catalog](https://open.dosm.gov.my/)
 
----
+## 📁 Repository Structure
+- `data/`: Contains raw and processed datasets.
+- `notebooks/`: Documented Jupyter notebooks detailing the cleaning and analysis process.
+- `visuals/`: Key charts and dashboard snapshots.
 
-## Data sources
+## 📈 Key Insights (Preview)
+*Keep this section updated as you find results!*
+- 💡 **Insight 1:** Example: "Selangor's median income rose by 4%, but Food inflation rose by 7% over the same period."
+- 💡 **Insight 2:** Example: "The B40 group in rural states spends over 40% of income on basic necessities."
 
-| Dataset | Source | Years |
-|---|---|---|
-| Household Income & Expenditure Survey (HIES) | [open.dosm.gov.my](https://open.dosm.gov.my) | 2016, 2019, 2022 |
-| Consumer Price Index (CPI) by state | [open.dosm.gov.my](https://open.dosm.gov.my) | 2015–2022 |
-| Salaries & Wages Survey | [open.dosm.gov.my](https://open.dosm.gov.my) | 2015–2022 |
-
-All raw files are stored in `/data/raw/` and are not modified.
-
----
-
-## Key findings
-
-1. **Affordability stress is highest in Sabah and Kelantan** — households
-   in both states spend over 85% of median income on basic expenditure.
-2. **Food CPI outpaced income growth in 11 of 16 states** between 2019–2022,
-   with rural east Malaysian states hit hardest.
-3. **KL and Selangor are outliers** — higher income, but housing costs
-   consume a disproportionately larger share vs other states.
-
-> Replace these with your actual findings once the analysis is complete.
+## 🚀 How to Run
+1. Clone the repo: `git clone https://github.com/Hafiz-Mhf/malaysia-cost-of-living-eda.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the notebooks in the `notebooks/` folder.
 
 ---
-
-## Methodology
-
-- Data cleaning and merging: `01_data_cleaning.ipynb`
-- Univariate distributions and trends: `02_univariate_analysis.ipynb`
-- State-level comparisons and correlations: `03_bivariate_state_analysis.ipynb`
-- Summary insights: `04_insights_summary.ipynb`
-
-Engineered features:
-- `affordability_ratio` = median expenditure / median income
-- `real_income` = nominal income / CPI × 100
-
----
-
-## Setup
-
-```bash
-git clone https://github.com/yourusername/malaysia-cost-of-living-eda
-cd malaysia-cost-of-living-eda
-pip install -r requirements.txt
-```
-
-Run notebooks in order (01 → 04) from the `/notebooks/` directory.
-
----
-
-## Tools used
-
-Python · pandas · numpy · matplotlib · seaborn · plotly · Jupyter
-
----
-
-*Data sourced from the Department of Statistics Malaysia (DOSM).
-This project is for portfolio and educational purposes.*
+**Author:** Muhammad Hafiz Faruqi  
+**Role:** Aspiring Data Analyst | Final Year IT Student
