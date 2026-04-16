@@ -22,8 +22,9 @@ With the rising cost of living in Malaysia, this project aims to answer three cr
 
 ## 📈 Key Insights (Preview)
 *Keep this section updated as you find results!*
-- 💡 **Insight 1:** Example: "Selangor's median income rose by 4%, but Food inflation rose by 7% over the same period."
-- 💡 **Insight 2:** Example: "The B40 group in rural states spends over 40% of income on basic necessities."
+- 💡 **Insight 1:** The Great Dip: Every analyzed state saw a drop in real purchasing power between 2019 and 2020, coinciding with global economic shifts and local lockdowns."
+- 💡 **Insight 2:** Urban Resilience: W.P. Kuala Lumpur shows the fastest recovery slope, whereas states like Kelantan show a much flatter growth trajectory."
+- 💡 **Insight 3:** Inflation Impact: By adjusting for CPI, this project reveals that "raw" salary increases often mask a stagnation in actual purchasing power."
 
 ## 🚀 How to Run
 1. Clone the repo: `git clone https://github.com/Hafiz-Mhf/malaysia-cost-of-living-eda.git`
