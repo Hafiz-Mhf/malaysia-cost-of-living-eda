@@ -20,7 +20,7 @@ With the rising cost of living in Malaysia, this project aims to answer three cr
 - `notebooks/`: Documented Jupyter notebooks detailing the cleaning and analysis process.
 - `visuals/`: Key charts and dashboard snapshots.
 
-## 📈 Key Insights (Preview)
+## 📈 Key Insights
 *Keep this section updated as you find results!*
 - 💡 **Insight 1:** The Great Dip: Every analyzed state saw a drop in real purchasing power between 2019 and 2020, coinciding with global economic shifts and local lockdowns.
 - 💡 **Insight 2:** Urban Resilience: W.P. Kuala Lumpur shows the fastest recovery slope, whereas states like Kelantan show a much flatter growth trajectory.
